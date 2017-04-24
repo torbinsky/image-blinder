@@ -1,8 +1,11 @@
 {
     "compilerOptions": {
-        "types": ["electron"]
+        "types": ["electron"],
+        "noImplicitAny": true,
+        "target": "es5",
+        "outDir": "dist"
     },
     "files": [
-        "main.ts"
+        "src/backendJs/main.ts", "src/clientJs/blinder.ts"
     ]
 }
